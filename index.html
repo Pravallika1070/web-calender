@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>web calender </title>
+ <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+
+    <h1 align = "center" id="cal_head"></h1>
+    <hr color="black">
+    <h2> <button onclick="s()"><a href="#" target="_blank">Home</a></button>
+    <button onclick="s()"><a href="#" target="_blank">About us</button></a> 
+    <button><a href="login.html" target="_blank">Login</a></BUtton>
+    <button><a href="#" target="_blank">Holidays list</a></button>
+    <button  onclick="myFunction()">Dark mode></button>  
+  </h2>
+    <hr color="black">
+    <div class="container">
+    <div class="left" name="2">
+      <h2> <center>Quotes</center> </h2>
+          <p>"Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off."<h4> — Kevin Hart</h4></p>
+        <h2>
+          <center>Thoughts</center>
+          </h2>
+          <p>Obviously, we are not saying that it is possible to be happy all of the time. But many people manage to live in an overall state of happiness. But how do we achieve this?<br><br>
+            When life feels overwhelmingly negative, it is easy to lose sight of how important happiness is. Most of the time people aren’t even aware, that they are the root of their own unhappiness.</p>
+          <h2>
+          <center>Tips for Healthy Start</center>
+        </h2>
+         <p>Fats consumed should be less than 30% of your total energy intake. This will help prevent unhealthy weight gain and NCDs. There are different types of fats, but unsaturated fats are preferable over saturated fats and trans-fats. WHO recommends reducing saturated fats to less than 10% of total energy intake; reducing trans-fats to less than 1% of total energy intake; and replacing both saturated fats and trans-fats to unsaturated fats.</p>  
+        <h2>
+        <center>About</center>
+      </h2>
+      <p>We have created this with the intend of helping people with there day to day activities on calender.</p>
+      </div>
+        <div class="right" name="1">
+          <div>
+              <header align = "center">
+              <h2>April</h2>
+
+             </header>
+            <table align="center" border="" class="calendar" >
+              <thead>
+                <tr>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>31</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>1</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        </div> 
+    <br>
+    <br>   
+  </div> 
+</body>
+<script>
+  setTimeout(function(){document.getElementById('cal_head').innerText +='C|'},100)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Ca|'},300)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Cal|'},500)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Cale|'},700)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Calen|'},900)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Calend|'},1000)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Calenda|'},1200)
+  setTimeout(function(){document.getElementById('cal_head').innerText ='Calendar'},1400)
+</script>
+<script>
+  function myFunctions() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+</script>
+</html
